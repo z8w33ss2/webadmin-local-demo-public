@@ -1,0 +1,88 @@
+import type { DashboardStat } from '@/types'
+
+export const MOCK_DASHBOARD_STATS: DashboardStat[] = [
+  {
+    id: 'stat-001',
+    label: 'Consultas este mes',
+    value: 248,
+    trend: 12.5,
+    trendLabel: 'vs mes anterior',
+    icon: 'stethoscope',
+    color: 'teal',
+  },
+  {
+    id: 'stat-002',
+    label: 'Clientes activos',
+    value: '1,482',
+    trend: 8.3,
+    trendLabel: 'vs mes anterior',
+    icon: 'users',
+    color: 'blue',
+  },
+  {
+    id: 'stat-003',
+    label: 'Ingresos del mes',
+    value: '$124,800',
+    trend: 15.2,
+    trendLabel: 'vs mes anterior',
+    icon: 'dollar-sign',
+    color: 'amber',
+  },
+  {
+    id: 'stat-004',
+    label: 'Cirugías realizadas',
+    value: 34,
+    trend: -3.1,
+    trendLabel: 'vs mes anterior',
+    icon: 'scissors',
+    color: 'violet',
+  },
+]
+
+export const MOCK_RECENT_APPOINTMENTS = [
+  {
+    id: 'apt-001',
+    clientName: 'María Fernández',
+    petName: 'Coco',
+    service: 'Consulta General',
+    time: '09:00',
+    status: 'completado',
+    vet: 'Dra. García',
+  },
+  {
+    id: 'apt-002',
+    clientName: 'Carlos Reyes',
+    petName: 'Luna',
+    service: 'Vacunación',
+    time: '10:30',
+    status: 'completado',
+    vet: 'Dra. Pérez',
+  },
+  {
+    id: 'apt-003',
+    clientName: 'Alejandra López',
+    petName: 'Rocky',
+    service: 'Grooming',
+    time: '11:00',
+    status: 'en-progreso',
+    vet: 'Lic. Torres',
+  },
+  {
+    id: 'apt-004',
+    clientName: 'José Martínez',
+    petName: 'Milo',
+    service: 'Cirugía',
+    time: '14:00',
+    status: 'programado',
+    vet: 'Dr. Mendoza',
+  },
+  {
+    id: 'apt-005',
+    clientName: 'Valeria Cruz',
+    petName: 'Daisy',
+    service: 'Nutrición',
+    time: '15:30',
+    status: 'programado',
+    vet: 'MVZ. Sánchez',
+  },
+]
