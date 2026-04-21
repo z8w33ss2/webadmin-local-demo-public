@@ -1,3 +1,5 @@
+'use client'
+
 import { BRANDING } from '@/config/branding'
 import { Button } from '@/components/ui'
 
