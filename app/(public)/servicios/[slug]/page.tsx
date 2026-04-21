@@ -2,12 +2,11 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { Clock, ArrowLeft, Check } from 'lucide-react'
-import { Button } from '@/components/ui'
 import { CTASection } from '@/components/sections/CTASection'
+import { ServiceBookingButton } from './ServiceBookingButton'
 import { getServiceBySlug, getAllServiceSlugs } from '@/services/servicesService'
 import { buildPageTitle, buildPageDescription } from '@/config/seo'
 import { formatPrice } from '@/utils/formatters'
-import { BRANDING } from '@/config/branding'
 import { ROUTES } from '@/lib/constants'
 
 interface PageProps {
@@ -111,21 +110,10 @@ export default function ServiceDetailPage({ params }: PageProps) {
               {/* CTA card */}
               <div className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm">
                 <p className="text-2xl font-bold text-brand-700 mb-1">
-                  {formatPrice(service.price.from)} MXN
+                  {formatPrice(service.price.from)} USD
                 </p>
                 <p className="text-xs text-gray-400 mb-5">Precio base, puede variar según el caso</p>
-                <Button
-                  className="w-full justify-center"
-                  onClick={() =>
-                    window.open(
-                      `https://wa.me/${BRANDING.contact.whatsapp}?text=Hola,%20me%20interesa%20el%20servicio%20de%20${encodeURIComponent(service.title)}`,
-                      '_blank',
-                      'noopener,noreferrer',
-                    )
-                  }
-                >
-                  Agendar este servicio
-                </Button>
+                <ServiceBookingButton serviceTitle={service.title} />
               </div>
             </aside>
           </div>

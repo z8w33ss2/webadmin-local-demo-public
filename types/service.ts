@@ -8,7 +8,7 @@ export interface Service {
   imageUrl: string
   price: {
     from: number
-    currency: 'MXN'
+    currency: 'USD'
     label: string
   }
   features: string[]

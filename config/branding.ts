@@ -10,13 +10,13 @@ export const BRANDING = {
     'Centro veterinario integral con más de 15 años de experiencia. Atendemos a tu mascota con el más alto nivel profesional y el cariño que merece.',
 
   contact: {
-    phone: '+52 55 1234-5678',
-    phoneRaw: '5215512345678',
-    whatsapp: '5215512345678',
-    email: 'contacto@vetcarelocal.mx',
-    address: 'Av. Insurgentes Sur 1234, Col. Del Valle, CDMX 03100',
+    phone: '+506 2222-3333',
+    phoneRaw: '50622223333',
+    whatsapp: '50622223333',
+    email: 'contacto@vetcarelocal.cr',
+    address: 'Av. Central, Barrio Amón, San José, Costa Rica',
     mapsUrl:
-      'https://maps.google.com/?q=Av.+Insurgentes+Sur+1234+CDMX',
+      'https://maps.google.com/?q=Av.+Central+Barrio+Amon+San+Jose+Costa+Rica',
     schedule: 'Lun–Vie 8:00–20:00 · Sáb–Dom 9:00–17:00',
   },
 

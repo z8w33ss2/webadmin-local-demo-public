@@ -21,7 +21,7 @@ Durante la consulta evaluamos:
     icon: '🩺',
     imageUrl:
       'https://images.unsplash.com/photo-1628009368231-7bb7cfcb0def?w=800&q=80',
-    price: { from: 350, currency: 'MXN', label: 'Desde $350 MXN' },
+    price: { from: 20, currency: 'USD', label: 'Desde $20 USD' },
     features: [
       'Revisión física completa',
       'Diagnóstico profesional',
@@ -55,7 +55,7 @@ Nuestro esquema de vacunación incluye:
     icon: '💉',
     imageUrl:
       'https://images.unsplash.com/photo-1559000357-f6b52ddfccef?w=800&q=80',
-    price: { from: 180, currency: 'MXN', label: 'Desde $180 MXN' },
+    price: { from: 10, currency: 'USD', label: 'Desde $10 USD' },
     features: [
       'Vacunas de importación certificadas',
       'Cartilla oficial incluida',
@@ -90,7 +90,7 @@ Procedimientos disponibles:
     icon: '🔬',
     imageUrl:
       'https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=800&q=80',
-    price: { from: 1200, currency: 'MXN', label: 'Desde $1,200 MXN' },
+    price: { from: 65, currency: 'USD', label: 'Desde $65 USD' },
     features: [
       'Quirófano equipado al 100%',
       'Anestesia monitorizada',
@@ -126,7 +126,7 @@ Incluye:
     icon: '✂️',
     imageUrl:
       'https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&q=80',
-    price: { from: 280, currency: 'MXN', label: 'Desde $280 MXN' },
+    price: { from: 15, currency: 'USD', label: 'Desde $15 USD' },
     features: [
       'Productos premium hipoalergénicos',
       'Estilistas certificados',
@@ -162,7 +162,7 @@ Atendemos:
     icon: '🚨',
     imageUrl:
       'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
-    price: { from: 500, currency: 'MXN', label: 'Desde $500 MXN' },
+    price: { from: 25, currency: 'USD', label: 'Desde $25 USD' },
     features: [
       'Atención 24/7 los 365 días',
       'Médico de guardia permanente',
@@ -197,7 +197,7 @@ El servicio incluye:
     icon: '🥗',
     imageUrl:
       'https://images.unsplash.com/photo-1589924691995-400dc9ecc119?w=800&q=80',
-    price: { from: 450, currency: 'MXN', label: 'Desde $450 MXN' },
+    price: { from: 25, currency: 'USD', label: 'Desde $25 USD' },
     features: [
       'Evaluación corporal completa',
       'Plan 100% personalizado',

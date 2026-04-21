@@ -1,11 +1,11 @@
 /**
- * Formatea un número como precio en MXN.
+ * Formatea un número como precio en USD.
  */
 export function formatPrice(
   amount: number,
-  currency: string = 'MXN',
+  currency: string = 'USD',
 ): string {
-  return new Intl.NumberFormat('es-MX', {
+  return new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency,
     minimumFractionDigits: 0,
